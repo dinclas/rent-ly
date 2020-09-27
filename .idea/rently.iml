@@ -34,6 +34,7 @@
     <orderEntry type="library" scope="PROVIDED" name="actionpack (v6.0.3.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actiontext (v6.0.3.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="actionview (v6.0.3.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="active_admin_theme (v1.1.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activeadmin (v2.8.0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activejob (v6.0.3.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="activemodel (v6.0.3.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
