@@ -1,0 +1,34 @@
+<div class="w-full h-full block z-0 pb-20" style="transform: skewY(-6deg)" data-controller="booking">
+  <div class="bg-teal-400 w-full h-96 z-0 flex justify-center items-center">
+    <div style="transform: skewY(6deg)">
+      <img src="<%= image_url('undraw_fast_car_p4cu.svg') %>" class="w-64 md:w-full md:max-w-sm"/>
+    </div>
+  </div>
+  <div class="flex flex-col -mt-8 w-full items-center" style="transform: skewY(6deg)">
+    <div class="h-full w-full flex justify-center">
+      <div class="bg-white w-full md:max-w-3xl xl:max-w-5xl md:rounded shadow-lg p-4 flex items-center text-center flex-col">
+        <%= simple_form_for(@booking, html: { class: 'flex flex-col' }) do |f| %>
+          <%= f.error :base, class: 'bg-red-200 p-2 rounded border border-red-300' %>
+          <h2 class="text-gray-800 text-3xl">Alugue um veículo agora mesmo</h2>
+          <%= f.association(:vehicle, prompt: 'Qual veículo gostaria de alugar?',
+                            label: false,
+                            input_html: { class: 'font-light bg-transparent text-gray-800 text-center w-32 text-xl placeholder-gray-600 w-full appearance-none' }) %>
+          <h2 class="text-gray-800 text-3xl">Quando precisa do veículo?</h2>
+          <div class="flex justify-center items-center space-x-2 text-center">
+            <%= f.input(:booking_start_at, as: :date, html5:true, label: false,
+                        input_html: { class: 'font-light text-gray-800 text-center w-32 text-xl placeholder-gray-600 w-full' }) %>
+            <span class="text-gray-600">Até</span>
+            <%= f.input(:booking_end_at, as: :date, html5:true, label: false,
+                        input_html: { class: 'font-light text-gray-800 text-center w-32 text-xl placeholder-gray-600 w-full' }) %>
+          </div>
+          <h2 class="text-gray-800 text-3xl">Agora só informar seu CPF</h2>
+          <div class="flex justify-center items-center space-x-2 text-center">
+            <%= f.input(:cpf, placeholder: '11122233344', label: false,
+                        input_html: { class: 'font-light text-gray-800 text-center w-32 text-xl placeholder-gray-800 w-full' }) %>
+          </div>
+          <button data-target="booking.submit" class="font-medium text-white text-xl py-2 px-8 rounded m-4 bg-gray-400 w-full">Reservar</button>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

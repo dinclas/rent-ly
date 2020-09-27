@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
-  root to: 'landing#index'
 
-  get '/vehicles/search', to: 'vehicles#search'
+  root to: 'bookings#new'
+
+  resources :bookings, only: [:index, :new, :create]
 end
