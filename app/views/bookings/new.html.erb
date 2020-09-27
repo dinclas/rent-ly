@@ -7,7 +7,7 @@
   <div class="flex flex-col -mt-8 w-full items-center" style="transform: skewY(6deg)">
     <div class="h-full w-full flex justify-center">
       <div class="bg-white w-full md:max-w-3xl xl:max-w-5xl md:rounded shadow-lg p-4 flex items-center text-center flex-col">
-        <%= simple_form_for(@booking, html: { class: 'flex flex-col' }) do |f| %>
+        <%= simple_form_for(@booking, html: { class: 'flex flex-col items-center' }) do |f| %>
           <%= f.error :base, class: 'bg-red-200 p-2 rounded border border-red-300' %>
           <h2 class="text-gray-800 text-3xl">Alugue um veículo agora mesmo</h2>
           <%= f.association(:vehicle, prompt: 'Qual veículo gostaria de alugar?',
