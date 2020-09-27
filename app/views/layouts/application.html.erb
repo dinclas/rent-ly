@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Rently</title>
+    <title>rent.ly</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all' %>
+    <%= stylesheet_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-    <nav>
-
+  <body class="bg-gray-100 overflow-hidden">
+    <nav class="flex p-4 w-full justify-center">
+      <h1 class="text-5xl font-medium text-teal-400">rent.ly</h1>
     </nav>
     <%= yield %>
   </body>

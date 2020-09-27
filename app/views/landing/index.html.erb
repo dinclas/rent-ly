@@ -1,3 +1,22 @@
-<div data-controller="hello">
-  <h1 data-target="hello.output"></h1>
+<div class="w-full h-full overflow-hidden block z-0 pb-20" style="transform: skewY(-6deg)">
+  <div class="bg-teal-400 w-full h-96 z-0 flex justify-center items-center">
+    <div style="transform: skewY(6deg)">
+      <img src="<%= image_url('undraw_fast_car_p4cu.svg') %>" class="w-64 md:w-full md:max-w-sm"/>
+    </div>
+  </div>
+  <div class="flex flex-col -mt-8 w-full items-center" style="transform: skewY(6deg)">
+    <div class="h-full w-full flex justify-center">
+      <div class="bg-white w-full md:max-w-3xl xl:max-w-5xl md:rounded shadow-lg p-4 flex items-center text-center flex-col">
+        <h2 class="text-gray-800 text-3xl">Alugue um veículo agora mesmo</h2>
+        <input class="font-light text-gray-800 text-center w-full text-xl placeholder-gray-600" placeholder="Qual veículo gostaria de alugar?">
+        <h2 class="text-gray-800 text-3xl">Quando precisa do veículo?</h2>
+        <div class="flex justify-center items-center space-x-2 text-center">
+          <input class="font-light text-gray-800 text-center w-32 text-xl placeholder-gray-600" placeholder="01/01/2001">
+          <span class="text-gray-600">Até</span>
+          <input class="font-light text-gray-800 text-center w-32 text-xl placeholder-gray-600" placeholder="01/01/2021">
+        </div>
+        <button class="font-medium text-white text-xl py-2 px-8 rounded m-4 bg-gray-400" disabled>Reservar</button>
+      </div>
+    </div>
+  </div>
 </div>
