@@ -10,7 +10,7 @@ class BookingsController < ApplicationController
 
   def create
     @booking = Booking.new(permited_params)
-    render 'success' if @booking.save
+    return render 'success' if @booking.save
     render action: :new
   end
 

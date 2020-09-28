@@ -18,7 +18,7 @@ ActiveAdmin.register Booking do
   form do |f|
     f.semantic_errors
     f.inputs do
-      input :vehicle
+      input :vehicle, as: :searchable_select
       input :booking_start_at, as: :datepicker
       input :booking_end_at, as: :datepicker
       input :cpf

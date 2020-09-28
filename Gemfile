@@ -68,3 +68,4 @@ gem 'rest-client'
 gem 'sentry-raven'
 gem 'simple_form'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
+gem 'activeadmin-searchable_select'
