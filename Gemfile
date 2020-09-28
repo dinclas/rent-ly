@@ -47,11 +47,15 @@ group :development do
 end
 
 group :test do
+  gem 'pry-rails'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
+  gem 'factory_bot_rails'
+  gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'master'
   gem 'rspec-rails', '~> 4.0.1'
+  gem 'simplecov', require: false
   gem 'webdrivers'
 end
 

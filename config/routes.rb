@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   root to: 'bookings#new'
 
-  resources :bookings, only: [:index, :new, :create]
+  resources :bookings, only: %i[index new create]
 end

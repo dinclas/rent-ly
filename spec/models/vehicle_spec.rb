@@ -1,5 +1,10 @@
 require 'rails_helper'
 
 RSpec.describe Vehicle, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe '#name' do
+    let!(:vehicle) { create(:vehicle) }
+    subject { vehicle.name }
+
+    it { is_expected.to eq("#{vehicle.brand} - #{vehicle.model} - #{vehicle.model_year}") }
+  end
 end

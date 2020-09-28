@@ -56,7 +56,11 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="devise (v4.7.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.4.4, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="docile (v1.3.2, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.9.0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot (v6.1.0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v6.1.0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="faker (v2.14.0@ef44b0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="faraday (v1.0.1, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.13.1, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formtastic (v3.1.5, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
@@ -118,6 +122,8 @@
     <orderEntry type="library" scope="PROVIDED" name="selenium-webdriver (v3.142.7, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sentry-raven (v3.1.1, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="simple_form (v5.0.2, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simplecov (v0.19.0, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="simplecov-html (v0.12.3, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring (v2.1.1, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="spring-watcher-listen (v2.0.1, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="sprockets (v4.0.2, RVM: ruby-2.6.5 [rently]) [gem]" level="application" />
