@@ -64,6 +64,7 @@ gem 'activeadmin'
 gem 'active_admin_theme'
 gem 'devise'
 gem 'rails-i18n', '~> 6.0.0'
+gem 'rest-client'
 gem 'sentry-raven'
 gem 'simple_form'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
