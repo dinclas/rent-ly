@@ -1,0 +1,6 @@
+filetype: svg
+orientation: vertical
+attributes:
+  - content
+  - foreign_key
+  - inheritance
