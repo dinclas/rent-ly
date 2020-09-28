@@ -1,24 +1,9 @@
-# README
+# Executando o Projeto
+* Primeiro verifique se a porta 3000 está liberada na sua máquina, caso não esteja, libere-a ou troque a porta no docker-compose.yml.
+* Para iniciar o projeto, basta executar `docker-compose -d up`
+* Na primeira vez que executar o projeto, também execute `docker-compose exec web rails db:seed` para gerar a conta de administrador.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Executar Testes
+* Utilize o comando `docker-compose run web rspec`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Para mais detalhes verificar a [Wiki](https://github.com/lcrmj/rent-ly/wiki) do projeto
